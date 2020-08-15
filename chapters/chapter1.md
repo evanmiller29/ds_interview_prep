@@ -3,7 +3,7 @@ title: 'Chapter 1: Statistics'
 description:
   'Yeah this is the fundemental building block of what we do.'
 prev: null
-next: /chapter2
+next: /chapter21
 type: chapter
 id: 1
 ---
@@ -94,6 +94,7 @@ Which error type does statistical power relate to?
 <opt text="Type I error">
 </opt>
 <opt text="Type II error" correct="true">
+This is not the correct answer.
 </opt>
 </choice>
 
@@ -104,22 +105,23 @@ Which error type does statistical power relate to?
 Selection (or ‘sampling’) bias occurs in an ‘active,’ sense when the sample data that is gathered and prepared for modeling has characteristics that are not representative of the true, future population of cases the model will see. 
 That is, active selection bias occurs when a subset of the data are systematically (i.e., non-randomly) excluded from analysis.
 
+<img src="/module1/selection_bias.jpeg" alt="selection bias image" />
+
 </exercise>
 
-<exercise id="5" title="code example">
+<exercise id="5" title="Different types of sampling">
 
-This is a code exercise. The content can be formatted in simple Markdown – so
-you can have **bold text**, `code` or [links](https://spacy.io) or lists, like
-the one for the instructions below.
+<img src="/module1/strat_example.png" alt="sampling image" />
 
-- These are instructions and they can have bullet points.
-- The code block below will look for the files `exc_01_03`, `solution_01_03` and
-  `test_01_03` in `/exercises`.
+What type of sampling is this?
 
-<codeblock id="01_03">
-
-This is a hint.
-
-</codeblock>
+<choice>
+<opt text ="Random Sampling">
+This is not the correct answer.
+</opt>
+<opt text ="Stratified Sampling" correct="true">
+This IS the correct answer.
+</opt>
+</choice>
 
 </exercise>
