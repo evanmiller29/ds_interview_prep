@@ -1,5 +1,5 @@
 ---
-title: 'Chapter 2.1: Machine Learning - Decision Trees'
+title: 'Chapter 2.2: Machine Learning - Decision Trees'
 description:
   'Finally, the cool bit.'
 prev: /chapter21
